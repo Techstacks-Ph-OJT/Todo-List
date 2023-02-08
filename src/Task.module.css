@@ -1,0 +1,35 @@
+.task {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete:hover {
+  background-color: rgba(255, 0, 0, 0.667);
+  color: white;
+}
+
+.complete:hover {
+  background-color: #00CC8E;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
